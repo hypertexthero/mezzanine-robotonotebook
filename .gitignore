@@ -1,0 +1,16 @@
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+*.egg-info/
+dist/
+local_settings.py
+/static
+manage.py
+settings.py
+fabfile.py
+__init__.py
+deploy
+urls.py
+wsgi.py
