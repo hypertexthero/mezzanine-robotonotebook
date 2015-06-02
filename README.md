@@ -1,8 +1,8 @@
 Roboto Notebook
 ===============
 
-A [Mezzanine][Mezzanine] theme intended for publishing a personal blog with a
-minimalist design typeset with Google’s [Roboto][Roboto] typeface.
+A [Mezzanine](http://mezzanine.jupo.org/) theme intended for publishing a personal blog with a
+minimalist design typeset with Google’s [Roboto](https://www.google.com/fonts/specimen/Roboto) typeface.
 
 In initial development.
 
@@ -46,11 +46,6 @@ Future Features That Would Be Nice
     -   Download backup of all pages in zipped HTML archive including
         styles and Markdown text file duplicates, i.e. `About.html`,
         `About.md`
-    -   Built-in [Pandoc][Pandoc] converter in admin interface.
+    -   Built-in [Pandoc](http://pandoc.org/) converter in admin interface.
 -   Markdown editor with toggleable preview as default for creating
-    pages and posts, possibly using HTML [Content Editable][Content Editable].
-
-  [Mezzanine]: http://mezzanine.jupo.org/
-  [Roboto]: https://www.google.com/fonts/specimen/Roboto
-  [Pandoc]: http://pandoc.org/
-  [Content Editable]: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable
+    pages and posts, possibly using HTML [Content Editable](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_Editable).

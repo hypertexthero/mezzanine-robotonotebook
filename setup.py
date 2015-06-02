@@ -1,8 +1,6 @@
-# Thanks, Stephen https://groups.google.com/d/msg/mezzanine-users/bdqjepkhtzc/dG0xl9qx4kEJ
-# and Hynek https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/
 import os
 
-from setuptools import setup
+from setuptools import setup, find_packages
 from robotonotebook import __version__ as version
 
 def read(*paths):
@@ -21,7 +19,7 @@ setup(
     license='MIT',
     author = 'Simon Griffee',
     author_email = 'simongriffee@gmail.com',
-    py_modules=['robotonotebook'],
+    packages=find_packages(),
     include_package_data=True,
     install_requires=['Mezzanine'],
     classifiers=[

@@ -7,6 +7,7 @@
 dist/
 local_settings.py
 /static
+build/
 manage.py
 settings.py
 fabfile.py
